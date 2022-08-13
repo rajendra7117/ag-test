@@ -1,0 +1,64 @@
+.form-div {
+  width: auto;
+  height: auto;
+  background-color: #383535;
+
+  margin-top: 5rem;
+  border-radius: 0.3rem;
+  form {
+    padding: 1rem;
+    margin: 5rem auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    div {
+      width: auto;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      height: 3.5rem;
+
+      label {
+        font-size: 1.1rem;
+        font-weight: 700;
+        width: 6rem;
+      }
+      input {
+        border-radius: 1rem;
+        margin-left: 1.5rem;
+        padding: 0.5rem;
+        outline: none;
+        border: 1px solid grey;
+        width: 14rem;
+      }
+    }
+    .form-buttons{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        button:nth-child(1){
+            background-color: rgb(206, 53, 53);
+            padding: 0.6rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border: rgb(206, 53, 53);
+            border-radius: 0.2rem;
+        }
+        button:nth-child(2){
+            background-color: rgb(145, 206, 53);
+            padding: 0.6rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border: rgb(145, 206, 53);
+            border-radius: 0.2rem;
+        }
+
+        button:disabled{
+            opacity: 0.5;
+        }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.completed-temp{
+  width: 100vw;
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  
+  
+  img{
+    width: 1000px;
+    height: 600px;
+    border-radius: 0.5rem;
+
+  }
+  .text{
+    position: absolute;
+  }
+}
